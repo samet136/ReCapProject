@@ -47,7 +47,11 @@ namespace DataAccess.Concrete
 
         public void Update(Car car)
         {
-            throw new NotImplementedException();
+            Car carToUpdate = _cars.SingleOrDefault(c => c.CarId == car.CarId);
+            carToUpdate.BrandId = car.BrandId;
+            carToUpdate.ColorId = car.ColorId;
+            carToUpdate.DailyPrice = car.DailyPrice;
+            carToUpdate.Description = car.Description;
         }
     }
 }
