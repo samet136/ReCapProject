@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{32FF190B-8D61-468B-94AC-2D15F04EF027}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{15870CAE-7B62-4E26-A425-84FC612B310F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{B31EDBD3-F192-43A8-9A82-279677BC5A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6314241A-1163-45B0-8DDA-AF36ADA4D07C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B31EDBD3-F192-43A8-9A82-279677BC5A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31EDBD3-F192-43A8-9A82-279677BC5A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31EDBD3-F192-43A8-9A82-279677BC5A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6314241A-1163-45B0-8DDA-AF36ADA4D07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6314241A-1163-45B0-8DDA-AF36ADA4D07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6314241A-1163-45B0-8DDA-AF36ADA4D07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6314241A-1163-45B0-8DDA-AF36ADA4D07C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

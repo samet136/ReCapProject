@@ -1,17 +1,16 @@
-﻿using System;
+﻿using Entities.Concrete;
+using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IColorService
+   public  interface IColorService
     {
         List<Color> GetAll();
         void Add(Color color);
+        void Update(Color color);
         void Delete(Color color);
-        Color Update(int color);
-       
-                    
+        void GetById(int id);
     }
 }
